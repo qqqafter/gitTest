@@ -1,0 +1,16 @@
+Посмотреть все установленные настройки
+git config --list --show-origin
+
+указать ваше имя и адрес электронной почты.
+если указана опция --global, то эти настройки достаточно сделать только один раз,
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+проверить используемую конфигурацию
+git config --list
+
+
+открыть руководство по команде git config
+git help config
+или так
+git add -h
